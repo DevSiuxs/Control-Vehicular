@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './SidebarLeft.module.css';
-import Cronometro from './cronometro';  
+import Cronometro from '../cronometro';  
 
 export default function SidebarLeft() {
   return (

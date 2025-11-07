@@ -1,4 +1,4 @@
-import SidebarLeft from '../components/SidebarLeft'
+import SidebarLeft from '../components/SidebarLeft/SidebarLeft'
 import Cronometro from '../components/cronometro'
 
 export default function Home() {
