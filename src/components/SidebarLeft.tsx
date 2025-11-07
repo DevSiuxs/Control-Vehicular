@@ -9,7 +9,7 @@ export default function SidebarLeft() {
   return (
     <div className={styles.sidebarLeft}>
       <div className={styles.logo}>
-        <Image src="/favicon.ico" alt="Logo URANUS" width={150} height={150} className={styles.logoImg} />
+        <Image src="/uranus.ico" alt="Logo URANUS" width={150} height={150} className={styles.logoImg} />
         <p className={styles.subtitulo}>Sistema de Gestión Funeraria</p>
         <Link href="/Modulos/Adm-Sistemas/Adm-Sistemas">
           <button className={styles.btnView}>Ver</button>
@@ -43,7 +43,7 @@ export default function SidebarLeft() {
       <div className={styles.logout}>
         <Link href="/">
           <Image
-            src="/icons/power-icon.webp"
+            src="/globe.svg"
             alt="Salir"
             width={40}
             height={40}

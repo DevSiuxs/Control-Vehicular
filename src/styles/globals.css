@@ -16,20 +16,19 @@ body {
   overflow-x: hidden;
 }
 
+/* Agrega esto al final de globals.css */
 body {
   background: 
-    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), /* ✅ Overlay oscuro */
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url('/Uranus-background.png');
-  background-size: cover; /* ✅ Agrega esto */
-  background-position: center; /* ✅ Agrega esto */
-  background-repeat: no-repeat; /* ✅ Agrega esto */
-  background-attachment: fixed; /* ✅ Opcional: fija el fondo */
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  color: white; /* ✅ Para que el texto sea visible */
 }
 
 * {

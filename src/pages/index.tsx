@@ -4,9 +4,8 @@ import Cronometro from '../components/cronometro'
 export default function Home() {
   return (
     <div>
-      <SidebarLeft />
-      <Cronometro />
-      <h1>Vamos Por El Primer Commit</h1>
+      {/* <SidebarLeft />
+      <Cronometro /> */}
     </div>
   )
 }
