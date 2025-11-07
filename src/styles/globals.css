@@ -17,11 +17,19 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: "url('/Uranus-background.png')";
+  background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), /* ✅ Overlay oscuro */
+    url('/Uranus-background.png');
+  background-size: cover; /* ✅ Agrega esto */
+  background-position: center; /* ✅ Agrega esto */
+  background-repeat: no-repeat; /* ✅ Agrega esto */
+  background-attachment: fixed; /* ✅ Opcional: fija el fondo */
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
 * {
